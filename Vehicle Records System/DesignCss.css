@@ -1,0 +1,72 @@
+﻿/*Its generated style for body*/
+body {
+    height: 100%;
+    width: 100%;
+    background-color: maroon;
+}
+/*Its generated style for heading where id="H1"*/
+#H1 {
+    position:fixed;
+    background-color: aqua; /*background color of heading*/
+    height: 50px; /*height of heading part*/
+    font-size: 30px; /*font size of heading text*/
+    font-family: cursive; /*fontfamily for this text*/
+    text-align: center; /*text are align in center*/
+    margin-top: 2px; /*decribe top margin*/
+    width: 100%; /*its defined width in % where % is used for responsive page*/
+}
+/*Its generated style for paragraph where id="P1"*/
+#P1 {
+    font-size: 22px;
+    text-decoration-color: coral;
+}
+/*Its generated style for division tag where id="Div1"*/
+#Div1 {
+    position:fixed;
+    background-color: #808080;
+    height: 50px;
+    width: 100%;
+    margin-top:50px;
+}
+/*Its generated style for all hyperlink*/
+#HyperLink1, #HyperLink2, #HyperLink3, #HyperLink4 {
+    list-style-type: none; /*for list style type */
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 22px;
+    padding: 20px 22px;
+    float: left;
+    text-align: center;
+}
+    /*Its generated style for body*/
+    #HyperLink1:hover, #HyperLink2:hover, #HyperLink3:hover, #HyperLink4:hover {
+        background-color: darkgreen;
+        max-height: 50px;
+    }
+    /*Its generated style for body*/
+    #HyperLink1:active {
+        background-color: antiquewhite;
+    }
+/*Its generated style for logout button */
+#Button1 {
+    height: 50px;
+    width: 120px;
+    background-color: wheat;
+    float: right; /*for aligning button right */
+    font-size: 20px;
+    text-align: center;
+}
+    /*Its generated style on logout button when mouse is hover on it*/
+    #Button1:hover {
+        background-color: cadetblue;
+        min-height: 50px;
+        min-width: 130px;
+    }
+/*Its generated style for footer*/
+footer {
+    background-color: #808080;
+    height: 30px;
+    position: fixed; /*It is used for fixing the position when user scroll left to right the footer will not moved and its remain it position*/
+    bottom: 2px;
+    width: 100%;
+}
